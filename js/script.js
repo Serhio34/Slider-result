@@ -31,17 +31,6 @@ $(document).ready(function() {
     // instead of a settings object
   ]
 });
-	
-	/*$('.slick-next').on('click', function(){
-     $('.slick-line_next').animate({
-       marginLeft: '50%',
-     },700);
-  });
-  $('.slick-prev').on('click', function(){
-     $('.slick-line_prev').animate({
-       marginLeft: '0',
-     },700);
-  });*/
 
 });
 
