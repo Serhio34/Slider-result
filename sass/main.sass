@@ -1,0 +1,60 @@
+@import "bourbon/bourbon"
+
+
+body
+	margin: 0
+	padding: 0
+img
+	width: 100%
+	min-height: 470px
+.slider
+	+linear-gradient(#ffffff, #efefef)
+.slick-next
+	padding-bottom: 30px
+	background-color: #2b4989
+	opacity: 0.1
+	width: 41px
+	height: 200px
+	right: 75px
+	z-index: 2
+	+transition(all 1.8s ease)
+	&:focus
+  	background: transparent
+    opacity: 1
+
+.slick-prev
+	background-color: #2b4989
+	opacity: 0.1
+	padding-bottom: 30px
+	width: 41px
+	height: 200px
+	left: 75px
+	z-index: 2
+	+transition(all 1.8s ease)
+	&:focus
+  	background: transparent
+    opacity: 1
+
+.slick-next
+	&::before	
+		content: '\203A'
+		color: #fff
+		background-repeat: no-repeat
+		font-size: 70px
+		z-index: 2
+.slick-prev
+	&::before	
+		content: '\2039'
+		color: #fff
+		font-size: 70px
+		z-index: 2
+.slick-line_next
+	width: 50%
+	border: 2px solid #2c4d89
+.slick-line_prev
+	width: 50%
+	margin-left: 50%
+	border: 2px solid #2c4d89
+
+@import "_media"
+
